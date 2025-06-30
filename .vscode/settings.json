@@ -1,0 +1,8 @@
+{
+    // 强制 VS Code 终端以 login shell 启动，自动加载 ~/.zshrc
+    "terminal.integrated.shellArgs.osx": ["-l"],
+    // 确保环境变量继承
+    "terminal.integrated.inheritEnv": true,
+    // 指定 Python 解释器（如有需要）
+    "python.defaultInterpreterPath": "/usr/bin/python3"
+}

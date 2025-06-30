@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run ChronoBot UI",
+            "type": "python",
+            "request": "launch",
+            "module": "ai_agent.ui.app",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
